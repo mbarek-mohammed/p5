@@ -1,29 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./src/output.css">
 </head>
+
 <body>
-         <!-- navbar -->
-   <header id="yassine" class="border-[1vw] border-white bg-white  flex flex-row items-center justify-around">
-           <img class="h-[90px] w-[100px] " src="./src/images/travel img.png" alt="">   
-           <nav class="flex gap-[30px]">
+    <!-- navbar -->
+    <header id="yassine" class="border-[1vw] border-white bg-white  flex flex-row items-center justify-around">
+        <img class="h-[90px] w-[100px] " src="./src/images/travel img.png" alt="">
+        <nav class="flex gap-[30px]">
             <a href="">Home</a>
             <a href="">Destinations</a>
             <a href="">About</a>
             <a href="">contact</a>
-           </nav>
-               <button class="border-[1vw] border-amber-600 bg-amber-600 text-amber-50 rounded-md">Book now</button>
-   </header>
-   <main>
-    <section id="yassine"></section>
-    <section id="mohammed"></section>
-    <section id="mohammed"></section>
-    <section id="mohammed"></section>
-   </main>
-   <footer id="yassine"></footer>
+        </nav>
+        <button class="border-[1vw] border-amber-600 bg-amber-600 text-amber-50 rounded-md">Book now</button>
+    </header>
+    <main>
+        <section id="yassine"></section>
+        <section id="mohammed" class=" px-40 py-10">
+            <div class="text-center">
+                <p>EXPLORE THE WORLD</p>
+                <h3 class="text-2xl font-bold">Popular Destinations</h3>
+                <p>Discover our most popular destinations.</p>
+            </div>
+
+            <div class="flex gap-4 py-10">
+                <div class="w-full max-w-sm bg-neutral-primary-soft  border border-none rounded-2xl shadow-xl">
+
+                    <img class="rounded-xl mb-6" src="./src/images/images_2.jfif" alt="product image" />
+
+                    <div>
+                        <div class="flex items-center space-x-3 mb-4">
+
+                            <span class="font-extrabold pl-3">Marrakech, Morocco</span>
+                        </div>
+
+                        <p class="pl-3 text-gray-600">Discover the beauty of Moroccan culture</p>
+
+                        <div class="flex items-center justify-between mt-6 pl-3 pb-4 pr-3">
+                            <span class=" font-extrabold text-heading text-orange-600">$250/person</span>
+                            <span class=" font-bold ">explore &rarr;</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-full max-w-sm bg-neutral-primary-soft  border border-none rounded-2xl shadow-xl">
+
+                    <img class="rounded-xl w-full h-55 mb-6" src="./src/images/images_1.jfif" alt="product image" />
+
+                    <div>
+                        <div class="flex items-center space-x-3 mb-4">
+                            <span class="font-extrabold pl-3">Paris, France</span>
+                        </div>
+                        <p class="pl-3 text-gray-600">Experience the city of love and lights</p>
+                        <div class="flex items-center justify-between mt-6 pl-3 pb-4 pr-3">
+                            <span class=" font-extrabold text-heading text-orange-600">$450/person</span>
+                            <span class=" font-bold ">explore &rarr;</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full max-w-sm bg-neutral-primary-soft  border border-none rounded-2xl shadow-xl">
+
+                    <img class="rounded-xl mb-6 w-full h-55 " src="./src/images/indo.jfif" alt="product image" />
+
+                    <div>
+                        <div class="flex items-center space-x-3 mb-4">
+
+                            <span class="font-extrabold pl-3">Bali, Indonesia</span>
+                        </div>
+
+                        <p class="pl-3 text-gray-600">Enjoy tropical beaches and nature</p>
+
+                        <div class="flex items-center justify-between mt-6 pl-3 pb-4 pr-3">
+                            <span class=" font-extrabold text-heading text-orange-600">$600/person</span>
+                            <span class=" font-bold ">explore &rarr;</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="mohammed">
+
+            
+        </section>
+        <section id="mohammed">
+            <div class="max-w-xl mx-auto bg-white p-8 rounded-xl shadow-lg">
+                <form>
+                    <div class="mb-5">
+                        <label class="block text-sm font-semibold mb-2">
+                            Full Name
+                        </label>
+                        <input type="text" placeholder="Enter your name"
+                            class="w-full border border-gray-300 rounded-md p-3 text-sm outline-none focus:border-orange-500">
+                    </div>
+
+
+                    <div class="mb-5">
+                        <label class="block text-sm font-semibold mb-2">
+                            Email Address
+                        </label>
+                        <input type="email" placeholder="Enter your email"
+                            class="w-full border border-gray-300 rounded-md p-3 text-sm outline-none focus:border-orange-500">
+                    </div>
+
+
+                    <div class="mb-5">
+                        <label class="block text-sm font-semibold mb-2">
+                            Your Message
+                        </label>
+                        <textarea rows="5" placeholder="Write your message..."
+                            class="w-full border border-gray-300 rounded-md p-3 text-sm outline-none focus:border-orange-500"></textarea>
+                    </div>
+
+
+                    <button type="submit"
+                        class="w-full bg-orange-500 text-white py-4 rounded-md text-sm hover:bg-orange-600">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer id="yassine"></footer>
 </body>
+
 </html>
